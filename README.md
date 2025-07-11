@@ -1,12 +1,44 @@
-# ELiteTEch Python Internship – Project Portfolio
+# Task 3 – AI Chatbot with NLP
 
-This repository contains my solutions to all 4 tasks assigned during the Python Developer Internship at **ELiteTEch**.
+## 🧠 Description
+This task is part of my Python Developer Internship at **ELiteTEch**. The goal was to build a basic chatbot using Natural Language Processing (NLP) that can respond to user queries.
 
-## 📌 Tasks Completed
+---
 
-1. **API Integration and Data Visualization** – OpenWeatherMap API + Matplotlib
-2. **Automated Report Generation** – PDF report from weather data using FPDF
-3. **AI Chatbot with NLP** – Rule-based chatbot using NLTK
-4. **Machine Learning Model** – SMS spam detection using Scikit-learn
+## 📌 Objective
+- Use Python and NLTK to create an intelligent text-based assistant
+- Process and understand user input using NLP techniques
+- Respond based on intent and keywords
 
-✅ All tasks are completed, tested, and documented.
+---
+
+## 🛠 Technologies Used
+- Python
+- NLTK (Natural Language Toolkit)
+- `datetime` for time-based responses
+- Simple NLP techniques (tokenization, stopword removal)
+
+---
+
+## 💬 Supported Intents
+- Greetings (hello, hi)
+- Time queries
+- Weather mentions
+- Asking chatbot’s name
+- Help or support
+- Thank you responses
+- Jokes
+- Python-related questions
+- Farewell/Exit
+
+---
+
+## 📂 Files Included
+- `chatbot_NLTK.py` – Python script containing chatbot logic
+
+---
+
+## 🧪 How to Run
+1. Install required library:
+   ```bash
+   pip install nltk
