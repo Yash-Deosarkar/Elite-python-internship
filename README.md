@@ -4,7 +4,6 @@
 ## 🧠 Description
 This task is part of my Python Developer Internship at **ELiteTEch**. The goal was to read weather data, analyze it, and generate a well-formatted PDF report using Python.
 
----
 
 ## 📌 Objective
 - Read weather data using OpenWeatherMap API (from Task 1)
@@ -49,3 +48,5 @@ The PDF report includes:
 
 ## ✅ Task Status
 ✅ Completed and verified working ✅
+=======
+✅ All tasks are completed, tested, and documented.
