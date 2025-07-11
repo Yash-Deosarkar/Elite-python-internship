@@ -1,12 +1,51 @@
-# ELiteTEch Python Internship – Project Portfolio
 
-This repository contains my solutions to all 4 tasks assigned during the Python Developer Internship at **ELiteTEch**.
+# Task 2 – Automated Report Generation
 
-## 📌 Tasks Completed
+## 🧠 Description
+This task is part of my Python Developer Internship at **ELiteTEch**. The goal was to read weather data, analyze it, and generate a well-formatted PDF report using Python.
 
-1. **API Integration and Data Visualization** – OpenWeatherMap API + Matplotlib
-2. **Automated Report Generation** – PDF report from weather data using FPDF
-3. **AI Chatbot with NLP** – Rule-based chatbot using NLTK
-4. **Machine Learning Model** – SMS spam detection using Scikit-learn
+---
 
-✅ All tasks are completed, tested, and documented.
+## 📌 Objective
+- Read weather data using OpenWeatherMap API (from Task 1)
+- Summarize temperature, humidity, and weather descriptions
+- Generate a structured PDF report using the `fpdf` library
+
+---
+
+## 🛠 Technologies Used
+- Python
+- `requests` for fetching data
+- `fpdf` for creating PDF documents
+
+---
+
+## 📂 Files Included
+- `generate_weather_report.py` – Python script that fetches data and creates the PDF
+- `weather_report.pdf` – Final report file (sample output)
+
+---
+
+## 🧪 How to Run
+1. Install required library:
+   ```bash
+   pip install requests fpdf
+   ```
+2. Run the script:
+   ```bash
+   python generate_weather_report.py
+   ```
+
+---
+
+## 📝 Report Details
+The PDF report includes:
+- City name
+- Temperature (°C)
+- Humidity (%)
+- Weather description
+
+---
+
+## ✅ Task Status
+✅ Completed and verified working ✅
