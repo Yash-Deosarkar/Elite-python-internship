@@ -1,12 +1,35 @@
-# ELiteTEch Python Internship – Project Portfolio
+# Task 4 – Machine Learning Model Implementation (Spam Detection)
 
-This repository contains my solutions to all 4 tasks assigned during the Python Developer Internship at **ELiteTEch**.
+## 🧠 Description
+This task is part of my Python Developer Internship at **ELiteTEch**. The goal was to build a predictive machine learning model using scikit-learn to classify SMS messages as spam or ham.
 
-## 📌 Tasks Completed
+---
 
-1. **API Integration and Data Visualization** – OpenWeatherMap API + Matplotlib
-2. **Automated Report Generation** – PDF report from weather data using FPDF
-3. **AI Chatbot with NLP** – Rule-based chatbot using NLTK
-4. **Machine Learning Model** – SMS spam detection using Scikit-learn
+## 📌 Objective
+- Load and preprocess SMS data
+- Convert text to numerical features using TF-IDF
+- Train a machine learning model to classify spam
+- Evaluate model performance using metrics and a confusion matrix
 
-✅ All tasks are completed, tested, and documented.
+---
+
+## 🛠 Technologies Used
+- Python
+- scikit-learn
+- pandas
+- matplotlib
+- seaborn
+
+---
+
+## 📂 Files Included
+- `spam_classifier.py` – Python script for training and evaluating the model
+- `spam.csv` – The dataset used for training/testing
+- `confusion_matrix.png` – Output visualization of prediction accuracy
+
+---
+
+## 🧪 How to Run
+1. Install required libraries:
+   ```bash
+   pip install pandas scikit-learn matplotlib seaborn
